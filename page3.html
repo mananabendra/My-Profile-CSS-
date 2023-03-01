@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body{
+            background-color: #AAE3E2;
+        }
+        .myprofile{ 
+            background: #D9ACF5;
+            border-radius: 4%;
+            margin-left: 32%;
+            margin-right: 32%;
+            padding: auto;
+            padding-left: 0%;
+            padding-right:0%;
+            padding-top: 0%;
+        }
+        .btn{
+            font-size:medium; 
+            display: block;
+            margin: auto;
+            width: auto;
+            background: #AAE3E2;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btndiv{
+            background:#AAE3E2;
+            border-radius: 4%;
+            margin-left: 32%;
+            margin-right: 32%;
+            padding: auto;
+            padding-left: 0%;
+            padding-right:0%;
+            padding-top: 1%;
+        }
+        .back{
+            margin-left:5%;
+            background:#D9ACF5;
+            border-radius: 4px;
+            width: 20%;
+        }
+        .back :hover{
+            color: blue;
+        }
+        .home{
+            margin-left: 50%;
+            background:#D9ACF5;
+            border-radius: 4px;
+            width: 20%;
+        }
+        .home :hover{
+            color: blue;
+        }
+        .el{
+            padding-left: 30%;
+        }
+        input{
+            background-color: #AAE3E2;
+        }
+        textarea{
+            background-color: #AAE3E2;
+        }
+    </style>
+</head>
+<body>
+    <div class="btndiv">
+        <button class="back"><a href="page2.html"><b>Back</b></a></button>
+        <button class="home"><a href="index.html"><b>Home</b></a></button>
+    </div><br>
+    <div class="myprofile"><br><center>
+        <font color="blue" size="6%"><u><b>Contact Me</b></u></font><br><br>
+        <form form action="mailto: manabendra847@gmail.com" method="post" enctype="text/plain">
+            <font size="3%" color="green">
+                <b>
+                <label>Name:</label>
+                <input type="text" name="Name" value=""><br>                
+                Gender:
+                <font size="2%" color="black">&emsp;&emsp;&emsp;
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label><br>
+                </font>
+                <label>Email:</label>
+                <input type="email" name="Email" value=""><br>
+                <label>Phone:</label>
+                <input type="tel" name="Phone" value=""><br>
+                <label>DOB:&emsp;&emsp;&emsp;&emsp;</label>
+                <input type="date" name="Date of Birth" value=""><br>                
+                <h4><u>Massage<u></h4>
+                <textarea rows="4" column="10" name="Message" value="" placeholder="Write here" ></textarea><br><br>
+                </b>
+            </font>
+            <input class="btn" type="submit"><br><br>                    
+        </form></center>
+    </div><br><br>
+    <div>
+        <center>
+            <font color="blue" size="6%"><u><b><center>Join My Social Media</center></b></u></font><br>
+            <iframe width="350" height="190" src="https://www.youtube.com/embed/nvejXH6SNV8" title="YouTube video player" ></iframe><br>
+            <font color="red" size="2%"><a href="https://www.youtube.com/@Monakash995" target="_blank"><center><b>YouTube</b></center></a></font><br>
+            <a href="https://www.facebook.com/MonAkash847" target="_blank"><img src="pics/mon.png" width="200px" height="auto"></img></a>&emsp;&emsp;&emsp;&emsp;
+            <a href="https://monakashome.blogspot.com/" target="_blank"><img src="pics/blogger.png" width="180px" height="auto"></a><br>
+            <a href="https://www.facebook.com/MonAkash847" target="_blank">Facebook</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <a href="https://monakashome.blogspot.com/" target="_blank">Blogger</a><br><br>
+        </center>
+    </div>
+    
+</body>
+</html>
